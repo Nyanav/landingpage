@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+@media (max-height: 800px) {
+    p{
+    font-size: 10px;
+    }
+  }
+
+.bckgrnd{
+    background-color: black;
+}
+header{
+    position: fixed;
+}
+.nav{
+  list-style-type: none;
+  position: fixed;
+  width: 100%;
+  margin-left: 900px;
+}
+.inline{
+    display: inline;
+}
+#header-img{
+    width: 150px;
+    height: 80px;
+    padding-left: 100px;
+    position: fixed;
+}
+.bnft{
+    color: white;
+    text-decoration: none;
+    font-family: Dancing Script;
+    padding-left: 800px;
+    font-size: 30px;
+}
+.nav-link{
+    color: white;
+    text-decoration: none;
+    font-family: Dancing Script;
+    padding-left: 30px;
+    font-size: 30px;
+}
+#opening{
+    display: flex;
+    padding-left: 500px;
+    padding-top: 150px;
+}
+#slogan{
+    display: flex;
+    padding-left: 507px;
+}
+#sample1, #sample2{
+    width: 500px;
+    display: inline-block;
+}
+.imgcontainer{
+    margin-left: 200px;
+}
+h1, h2{
+    color: white;
+}
+#benefit{
+    padding-left: 550px;
+}
+.bl{
+    padding-left: 470px;
+}
+.symbol{
+    width: 100px;
+    padding-left: 400px;
+}
+.video{
+    display: flex;
+    justify-content: center;
+}
+#email{
+    width: 300px;
+    height: 25px;
+    margin-left: 570px;
+}
+#form{
+    margin-top: 50px;
+}
+#submit{
+    width: 150px;
+    background-color: gold;
+    font-family: Dancing Script;
+    margin-left: 640px;
+    margin-top: 10px;
+
+}
+</style>
+
+<header id="header">
+    <nav id="nav-bar">
+        <img src="ghiaccio.png" alt="logo" id="header-img" style="float:left;">
+        <ul class="nav">
+            <li class="inline"><a href="#benefit" class="nav-link">Benefits</a></li>
+            <li class="inline"><a href="#video" class="nav-link">Teaser</a></li>
+            <li class="inline"><a href="#form" class="nav-link">Signup</a></li>
+        </ul>
+    </nav>
+</header>
+<body class="bckgrnd">
+    <div>
+        <h1 id="opening">Welcome to Ghiaccio Sorbet</h1> 
+        <h2 id="slogan">The First Fusion Sorbet in Indonesia</h2>
+    </div>
+    <div class="imgcontainer">
+        <img src="1.jpeg" alt="Sorbet Sample 1" id="sample1">
+        <img src="2.jpeg" alt="Sorbet Sample 2" id="sample2">
+    </div>
+    <h1 id="benefit">Our Product Benefits:</h1>
+    <div class="bl">
+        <h2>1.Made of Real Fresh Fruits and Vegetables</h2>
+        <h2>2.Low Calories</h2>
+        <h2>3.Nutritious and No Added Chemicals</h2>
+    </div>
+    <div class="video">
+        <iframe id="video" width="853" height="480" src="https://www.youtube.com/embed/MVVyKloDuoc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <h2 style="text-align: center;">Want to Know More?</h2>
+        <input type="email" id="email" name="email" placeholder="Please Enter Your Email Address" required>
+        <div>
+            <input type="submit" id="submit" value="Subscribe">
+        </div>
+    </form>
+</body>
+
+
+</html>
